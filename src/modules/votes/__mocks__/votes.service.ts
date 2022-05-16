@@ -1,0 +1,1 @@
+export const VotesService = jest.fn().mockReturnValue({})
