@@ -22,7 +22,7 @@ Features
   * DELETE Delete a Candidate
   * POST Check Vote Status
   * POST Vote (including real-time vote count stream with socket.io)
-    * Socket emit event was tested using postman's websocket request feature, connects at http://localhost:3030.  
+    * Socket emit event was tested using postman's websocket request feature.  
   * POST Toggle Election
   * GET Election Result
   * GET Exported Result (download a .csv file)
@@ -32,7 +32,8 @@ Features
 ## Setup and Installation
 
 With Docker
-* To make setting up and running the project easy, it has been dockerized with the .env, Dockerfile and docker-compose.yaml configured and ready.
+* To make setting up and running the project easy, it has been dockerized with Dockerfile and docker-compose.yaml configured.
+* Firstly, create a .env file and add in configurations following the structure of .env.example file.
 * Using a terminal, cd to docker-nestjs-election-api directory.
 * Type the command ``docker compose up`` and docker should get everything up and running.
 
